@@ -16,7 +16,7 @@ class RemoteImage ( var urlImage: String): IGraphic {
 
     override fun load(): Boolean {
         println("RemoteImage: load from OneDrive")
-        imageImp = "Esta es una imagen de prueba"
+        imageImp = urlImage
         return true
     }
 
